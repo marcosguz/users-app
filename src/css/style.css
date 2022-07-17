@@ -1,0 +1,83 @@
+.input-card {
+    align-items: center;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .3);
+    border: none;
+    border-radius: 2rem;
+    background-color: rgba(214, 93, 177, .2);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 40%;
+}
+
+.form {
+    width: 80%;
+}
+
+.input-title {  
+    text-align: center;
+    margin: 0 2rem 0 2rem;
+}
+
+.title {
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.inputs {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.label {
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+.input {
+    border: none;
+    height: 1.4rem;
+    outline: none;
+    width: 60%
+}
+
+.button {
+    background-color: #2C73D2;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, .3);
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 500;
+    height: 2.5rem;
+    margin: 1.5rem 0 2rem 0;
+    width: 30%;
+}
+
+.button:hover {
+    background-color: #0081CF;
+}
+
+.clear {
+    background-color: #00C9A7;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, .3);
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 500;
+    height: 2.5rem;
+    margin: 1.5rem 0 2rem 1rem;
+    width: 30%;
+}
+
+.clear:hover {
+    background-color: #4FFBDF;
+}

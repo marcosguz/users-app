@@ -1,0 +1,65 @@
+html {
+  background: #e96443;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.users {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 2.5rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+  width: 30%;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, .3);
+  border: none;
+  color: #FFF;
+}
+
+@media screen and (min-width: 350px){
+  .input-card{
+    display: block;
+    width: 100%;
+    background-color: #FFF;
+  }
+  
+  /* .item{
+    background-color: #F6F6FF;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 80px;
+    text-align: center;
+} */
+}
+/* 
+@media only screen and (min-width: 766px) and (max-width: 1500px){
+.input-card{
+  background-color: #F6F6FF;
+  padding: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.item{
+  background-color: #F6F6FF;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 80px;
+  text-align: center;
+}
+} */

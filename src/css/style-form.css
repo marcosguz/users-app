@@ -1,0 +1,57 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 85%;
+}
+
+.item {
+    background-color: rgba(231, 186, 255, .5);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 3px rgba(255, 255, 255, .3);
+    margin: 1rem 2rem 2rem 0;
+    list-style: none;
+    padding: 1rem;
+    width: 25%;
+    text-align: center;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.delete,
+.edit {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, .3);
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1.1rem;
+    height: 2rem;
+    margin: 1rem;
+    width: 30%;
+}
+
+.delete {
+    background-color: #D83121;
+}
+
+.edit {
+    background-color: #00D2FC;
+}
+
+.delete:hover {
+    background-color: #C34A36;
+}
+
+.edit:hover {
+    background-color: #009EFA;
+}
